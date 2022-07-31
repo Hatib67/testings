@@ -1,7 +1,8 @@
 # testings
 Using PyTest for testing different test cases
 
-
+Report XML Format:
+![Report_xml](https://user-images.githubusercontent.com/110198650/182033528-40501272-812c-457e-b7eb-cd17f4363964.JPG)
 
 
 test_a:
