@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="3" skipped="0" tests="8" time="0.203" timestamp="2022-07-31T20:11:40.329216" hostname="LAPTOP-BBL4IDRE"><testcase classname="test_a" name="test_1" time="0.002"><failure message="assert 10 == 20">def test_1():
+        x = 10
+        y = 20
+&gt;       assert x == y
+E       assert 10 == 20
+
+test_a.py:5: AssertionError</failure></testcase><testcase classname="test_a" name="test_2" time="0.001" /><testcase classname="test_b" name="test_mul[5-50]" time="0.001" /><testcase classname="test_b" name="test_mul[6-60]" time="0.001" /><testcase classname="test_b" name="test_mul[7-21]" time="0.001"><failure message="assert (10 * 7) == 21">n = 7, final = 21
+
+    @pytest.mark.parametrize("n,final",[(5,50),(6,60),(7,21)])
+    def test_mul(n,final):
+&gt;       assert 10*n == final
+E       assert (10 * 7) == 21
+
+test_b.py:6: AssertionError</failure></testcase><testcase classname="test_b" name="test_login[DragonSlayer67-m35gt7]" time="0.002" /><testcase classname="test_b" name="test_login[kingboy77-getaway88]" time="0.001" /><testcase classname="test_c" name="test_name" time="0.001"><failure message="AssertionError: assert 5 == 0&#10; +  where 5 = vowel_count('Hatib Zubair')">def test_name():
+&gt;       assert vowel_count("Hatib Zubair") == 0
+E       AssertionError: assert 5 == 0
+E        +  where 5 = vowel_count('Hatib Zubair')
+
+test_c.py:12: AssertionError</failure></testcase></testsuite></testsuites>
